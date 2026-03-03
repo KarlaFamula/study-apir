@@ -5,6 +5,6 @@ API de estudo de Spring Boot
 ##  Instruções de uso
 
 ```
-mnv spring-boot:run
+mvn spring-boot:run
 
 ```
