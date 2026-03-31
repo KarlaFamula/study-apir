@@ -12,7 +12,6 @@ public class RepositoryProdutoMockup {
     private List<Produto> produtos = new ArrayList<>();
 
     public RepositoryProdutoMockup() {
-    
 
         produtos.add(new Produto(1l, "Morango",
                 BigDecimal.valueOf(10.50)));
@@ -30,5 +29,10 @@ public class RepositoryProdutoMockup {
         return produtos.stream()
                 .filter(p -> p.getId().equals(id))
                 .findFirst();
+    }
+
+    public boolean deleteById(Long id) {
+        return produtos.removeIf(p -> p.getId().equals(id));
+
     }
 }
