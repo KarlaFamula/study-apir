@@ -6,6 +6,12 @@ API de estudo de Spring Boot.
 
 ```
 mvn spring-boot:run
+
+javac Demo1.java  - para compilar no java - coloca no terminal
+Nesse Demo1 - coloca o nome do projeto. 
+
+
+Java Demo1   - para executar - coloca no terminal
 ```
 
 
