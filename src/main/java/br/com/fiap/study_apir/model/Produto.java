@@ -11,14 +11,22 @@ import lombok.Setter;
 
 
 public class Produto {
-    private final Long id;
-    private  final String nome;
+    public Produto(Long id, String nome, BigDecimal valor) {
+        this.id = id;
+        this.nome = nome;
+        this.valor = valor;
+    }
+
+    private Long id;
+    private  String nome;
 
     //somente valores monetarios
-    private  final BigDecimal valor;
+    private  BigDecimal valor;
   
     
 }
+
+
 
 
   
