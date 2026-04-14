@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import br.com.fiap.study_apir.model.Produto;
 @Service
-public class RepositoryProdutoMockup {
+public class RepositoryProdutoMockup  {
 
     private List<Produto> produtos = new ArrayList<>();
     
