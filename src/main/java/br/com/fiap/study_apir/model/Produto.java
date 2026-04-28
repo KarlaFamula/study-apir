@@ -13,8 +13,16 @@ import lombok.Setter;
 
 
 public class Produto {
+
+
     
     
+    public Produto() {
+
+
+        
+    }
+
     public Produto(Long id, String nome, BigDecimal valor) {
         this.id = id;
         this.nome = nome;
