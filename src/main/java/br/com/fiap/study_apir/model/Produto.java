@@ -4,12 +4,14 @@ import java.math.BigDecimal;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.Data;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 @Entity 
-@Data //importa tudo para voce!
+@Table(name = "produtos")
+@Data  //importa tudo para voce!
 
 
 public class Produto {
